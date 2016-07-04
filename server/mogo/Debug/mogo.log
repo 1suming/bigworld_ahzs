@@ -1,0 +1,217 @@
+﻿生成启动时间为 2016/5/10 20:24:27。
+     1>项目“F:\BaiduyunDownload\anhei\server\mogo\mogo.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\base\main.cpp, ..\cell\main.cpp, ..\cwmd\main.cpp, ..\dbmgr\main.cpp, ..\logapp\main.cpp, ..\loginapp\main.cpp, ..\syncdb\main.cpp, ..\test\main.cpp, ..\timerd\main.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of dboper.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\dbmgr\dboper.cpp, ..\logapp\dboper.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of db_task.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\dbmgr\db_task.cpp, ..\logapp\db_task.cpp.
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\base\baseapp.cpp ..\base\entity_base.cpp ..\base\lua_base.cpp ..\base\main.cpp ..\base\world_base.cpp ..\cell\cellapp.cpp ..\cell\entity_cell.cpp ..\cell\lua_cell.cpp ..\cell\main.cpp ..\cell\space.cpp ..\cell\world_cell.cpp ..\common\balance.cpp ..\common\defparser.cpp ..\common\entity.cpp ..\common\entity_mgr.cpp ..\common\epoll_server.cpp ..\common\lua_mogo.cpp ..\common\mailbox.cpp ..\common\net_util.cpp ..\common\path_founder.cpp ..\common\pluto.cpp ..\common\rpc_mogo.cpp ..\common\server_test.cpp ..\common\timer.cpp ..\common\type_mogo.cpp ..\common\win_adaptor.cpp ..\common\world.cpp ..\common\xmsg.cpp ..\common\xsem.cpp ..\cwmd\cwmd.cpp ..\cwmd\main.cpp ..\cwmd\world_cwmd.cpp ..\dbmgr\db_task.cpp ..\dbmgr\dbmgr.cpp ..\dbmgr\dboper.cpp ..\dbmgr\main.cpp ..\dbmgr\myredis.cpp ..\dbmgr\world_dbmgr.cpp ..\logapp\api.cpp ..\logapp\db_task.cpp ..\logapp\dboper.cpp ..\logapp\http.cpp ..\logapp\main.cpp ..\logapp\other.cpp ..\logapp\threadpool.cpp ..\logapp\world_other.cpp ..\loginapp\loginapp.cpp ..\loginapp\main.cpp ..\loginapp\world_login.cpp ..\syncdb\main.cpp ..\test\main.cpp ..\test\policy.cpp ..\test\test_client.cpp ..\test\winbaseapp.cpp ..\test\world_client.cpp ..\timerd\main.cpp ..\timerd\timerd.cpp ..\timerd\world_timerd.cpp
+         world_timerd.cpp
+     1>f:\baiduyundownload\anhei\server\timerd\world_timerd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\timerd\world_timerd.h(4): fatal error C1083: 无法打开包括文件: “world.h”: No such file or directory
+         timerd.cpp
+     1>f:\baiduyundownload\anhei\server\timerd\timerd.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\timerd\timerd.cpp(1): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\timerd\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\timerd\main.cpp(1): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory
+         world_client.cpp
+     1>f:\baiduyundownload\anhei\server\test\world_client.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\test\world_client.cpp(9): fatal error C1083: 无法打开包括文件: “boost/asio.hpp”: No such file or directory
+         winbaseapp.cpp
+     1>f:\baiduyundownload\anhei\server\test\winbaseapp.cpp(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         test_client.cpp
+     1>f:\baiduyundownload\anhei\server\test\test_client.cpp(7): fatal error C1083: 无法打开包括文件: “world_base.h”: No such file or directory
+         policy.cpp
+     1>f:\baiduyundownload\anhei\server\test\policy.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\test\policy.cpp(3): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\test\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\test\main.cpp(4): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\syncdb\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\syncdb\main.cpp(4): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         world_login.cpp
+     1>f:\baiduyundownload\anhei\server\loginapp\world_login.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\loginapp\world_login.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\loginapp\world_login.h(4): fatal error C1083: 无法打开包括文件: “world.h”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\loginapp\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\loginapp\loginapp.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         loginapp.cpp
+     1>f:\baiduyundownload\anhei\server\loginapp\loginapp.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\loginapp\loginapp.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         world_other.cpp
+     1>f:\baiduyundownload\anhei\server\logapp\world_other.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\world_other.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\world_other.h(4): fatal error C1083: 无法打开包括文件: “world.h”: No such file or directory
+         threadpool.cpp
+     1>f:\baiduyundownload\anhei\server\logapp\threadpool.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\threadpool.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\threadpool.h(10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+         other.cpp
+     1>f:\baiduyundownload\anhei\server\logapp\other.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\other.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\logapp\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\other.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         http.cpp
+     1>f:\baiduyundownload\anhei\server\logapp\http.cpp(1): fatal error C1083: 无法打开包括文件: “logger.h”: No such file or directory
+         dboper.cpp
+     1>f:\baiduyundownload\anhei\server\logapp\dboper.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\dboper.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\dboper.h(4): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         db_task.cpp
+     1>f:\baiduyundownload\anhei\server\logapp\db_task.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\db_task.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\db_task.h(6): fatal error C1083: 无法打开包括文件: “mutex.h”: No such file or directory
+         api.cpp
+     1>f:\baiduyundownload\anhei\server\logapp\api.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\dboper.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\logapp\dboper.h(4): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         world_dbmgr.cpp
+     1>f:\baiduyundownload\anhei\server\dbmgr\world_dbmgr.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\world_dbmgr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\world_dbmgr.h(8): fatal error C1083: 无法打开包括文件: “world.h”: No such file or directory
+         myredis.cpp
+     1>f:\baiduyundownload\anhei\server\dbmgr\myredis.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\myredis.h(7): warning C4091: “typedef ”: 没有声明变量时忽略“redisContext”的左侧
+     1>f:\baiduyundownload\anhei\server\dbmgr\myredis.h(10): fatal error C1083: 无法打开包括文件: “pluto.h”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\dbmgr\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\dbmgr.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         dboper.cpp
+     1>f:\baiduyundownload\anhei\server\dbmgr\dboper.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\dboper.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\dboper.h(5): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         dbmgr.cpp
+     1>f:\baiduyundownload\anhei\server\dbmgr\dbmgr.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\dbmgr.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         db_task.cpp
+     1>f:\baiduyundownload\anhei\server\dbmgr\db_task.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\db_task.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\dboper.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\dbmgr\dboper.h(5): fatal error C1083: 无法打开包括文件: “mysql.h”: No such file or directory
+         world_cwmd.cpp
+     1>f:\baiduyundownload\anhei\server\cwmd\world_cwmd.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cwmd\world_cwmd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cwmd\world_cwmd.h(4): fatal error C1083: 无法打开包括文件: “world.h”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\cwmd\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cwmd\cwmd.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         cwmd.cpp
+     1>f:\baiduyundownload\anhei\server\cwmd\cwmd.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         xsem.cpp
+     1>f:\baiduyundownload\anhei\server\common\xsem.h(7): fatal error C1083: 无法打开包括文件: “sys/ipc.h”: No such file or directory
+         xmsg.cpp
+     1>f:\baiduyundownload\anhei\server\common\xmsg.h(8): fatal error C1083: 无法打开包括文件: “sys/ipc.h”: No such file or directory
+         world.cpp
+     1>f:\baiduyundownload\anhei\server\common\world.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         win_adaptor.cpp
+     1>f:\baiduyundownload\anhei\server\common\win_adaptor.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         type_mogo.cpp
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         timer.cpp
+     1>f:\baiduyundownload\anhei\server\common\timer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\timer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         server_test.cpp
+     1>f:\baiduyundownload\anhei\server\common\xmsg.h(8): fatal error C1083: 无法打开包括文件: “sys/ipc.h”: No such file or directory
+         rpc_mogo.cpp
+     1>f:\baiduyundownload\anhei\server\common\rpc_mogo.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\rpc_mogo.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         pluto.cpp
+     1>f:\baiduyundownload\anhei\server\common\pluto.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\pluto.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         path_founder.cpp
+     1>f:\baiduyundownload\anhei\server\common\path_founder.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\path_founder.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         net_util.cpp
+     1>f:\baiduyundownload\anhei\server\common\net_util.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\net_util.h(5): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         mailbox.cpp
+     1>f:\baiduyundownload\anhei\server\common\mailbox.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\mailbox.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\pluto.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         lua_mogo.cpp
+     1>f:\baiduyundownload\anhei\server\common\lua_mogo.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\lua_mogo.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\lua_mogo.h(5): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         epoll_server.cpp
+     1>f:\baiduyundownload\anhei\server\common\epoll_server.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\epoll_server.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\epoll_server.h(5): fatal error C1083: 无法打开包括文件: “sys/epoll.h”: No such file or directory
+         entity_mgr.cpp
+     1>f:\baiduyundownload\anhei\server\common\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         entity.cpp
+     1>f:\baiduyundownload\anhei\server\common\entity.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\entity.cpp(11): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         defparser.cpp
+     1>f:\baiduyundownload\anhei\server\common\defparser.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\defparser.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         balance.cpp
+     1>f:\baiduyundownload\anhei\server\common\balance.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\balance.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\common\type_mogo.h(6): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         world_cell.cpp
+     1>f:\baiduyundownload\anhei\server\cell\world_cell.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cell\world_cell.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cell\world_cell.h(4): fatal error C1083: 无法打开包括文件: “world.h”: No such file or directory
+         space.cpp
+     1>f:\baiduyundownload\anhei\server\cell\space.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cell\space.h(5): fatal error C1083: 无法打开包括文件: “type_mogo.h”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\cell\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cell\cellapp.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         lua_cell.cpp
+     1>f:\baiduyundownload\anhei\server\cell\lua_cell.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cell\lua_cell.h(5): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         entity_cell.cpp
+     1>f:\baiduyundownload\anhei\server\cell\entity_cell.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cell\entity_cell.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cell\entity_cell.h(4): fatal error C1083: 无法打开包括文件: “entity.h”: No such file or directory
+         cellapp.cpp
+     1>f:\baiduyundownload\anhei\server\cell\cellapp.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\cell\cellapp.h(4): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         world_base.cpp
+     1>f:\baiduyundownload\anhei\server\base\world_base.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\base\world_base.h(4): fatal error C1083: 无法打开包括文件: “world.h”: No such file or directory
+         main.cpp
+     1>f:\baiduyundownload\anhei\server\base\baseapp.h(5): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         lua_base.cpp
+     1>f:\baiduyundownload\anhei\server\base\lua_base.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\base\lua_base.h(4): fatal error C1083: 无法打开包括文件: “lua.hpp”: No such file or directory
+         entity_base.cpp
+     1>f:\baiduyundownload\anhei\server\base\entity_base.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\base\entity_base.h(4): fatal error C1083: 无法打开包括文件: “entity.h”: No such file or directory
+         baseapp.cpp
+     1>f:\baiduyundownload\anhei\server\base\baseapp.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\baiduyundownload\anhei\server\base\baseapp.h(5): fatal error C1083: 无法打开包括文件: “epoll_server.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“F:\BaiduyunDownload\anhei\server\mogo\mogo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.72
